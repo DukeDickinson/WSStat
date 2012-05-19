@@ -1,0 +1,7 @@
+﻿CREATE TABLE [dbo].[Sailor]
+(
+	Id INT IDENTITY(1,1) NOT NULL CONSTRAINT PK_Sailor PRIMARY KEY,
+	FirstName NVARCHAR(50) NULL,
+	LastName NVARCHAR(50) NULL,
+	
+)
